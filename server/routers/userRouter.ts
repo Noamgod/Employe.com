@@ -1,5 +1,5 @@
 import express from 'express';
-import {loginEnePoint, singUpEnePoint,updateUserEnePoint,deleteUserEnePoint,getAllUsersEnePoint,deleteAllUsersEnePoint} from "../API/userAPI";
+import {loginEnePoint, singUpEnePoint,updateUserEnePoint,deleteUserEnePoint,getAllUsersEnePoint,deleteAllUsersEnePoint} from "../controller/userController/userAPI";
 const router = express.Router();
 router.post('/singUp', singUpEnePoint)
 router.post('/login', loginEnePoint)

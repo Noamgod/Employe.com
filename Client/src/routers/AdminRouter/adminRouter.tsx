@@ -1,9 +1,9 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import HomePage from "../../Pages/HomePage/HomePage";
-import ProfilePage from "../../Pages/ProfilePage/ProfilePage";
-import UsersPage from "../../Pages/UsersPage/UsersPage";
-import SingUpPage from "../../Pages/SignUpPage/SingUpPage";
-import LogInPage from "../../Pages/LogInPage/LogInPage";
+import HomePage from "../../pages/HomePage/HomePage";
+import ProfilePage from "../../pages/ProfilePage/ProfilePage";
+import UsersPage from "../../pages/UsersPage/UsersPage";
+import SingUpPage from "../../pages/SignUpPage/SingUpPage";
+import LogInPage from "../../pages/LogInPage/LogInPage";
 
 export const AdminRouter = createBrowserRouter([
     {path: '/home', element: <HomePage/>},

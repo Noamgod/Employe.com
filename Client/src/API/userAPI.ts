@@ -1,6 +1,6 @@
 import API from "./connection";
-import {UpdateUser, User, UserClient} from "./type/user";
-import {logIn} from "../Pages/LogInPage/LogInPage";
+import {UpdateUser, User, UserClient} from "../types/user";
+import {logIn} from "../pages/LogInPage/LogInPage";
 
 
 const getUser = async (info: logIn): Promise<User> => {

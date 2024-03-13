@@ -1,8 +1,8 @@
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import HomePage from "../../Pages/HomePage/HomePage";
-import ProfilePage from "../../Pages/ProfilePage/ProfilePage";
-import SingUpPage from "../../Pages/SignUpPage/SingUpPage";
-import LogInPage from "../../Pages/LogInPage/LogInPage";
+import HomePage from "../../pages/HomePage/HomePage";
+import ProfilePage from "../../pages/ProfilePage/ProfilePage";
+import SingUpPage from "../../pages/SignUpPage/SingUpPage";
+import LogInPage from "../../pages/LogInPage/LogInPage";
 
 
 export const UserRouter = createBrowserRouter([

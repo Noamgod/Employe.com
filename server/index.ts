@@ -1,7 +1,10 @@
-import DBConnection from "./IntiConnections/initMongo";
-import Server from "./IntiConnections/initServer";
+import DBConnection from "./services/db/dbAccess";
+import Server from "./services/initServer";
+require('dotenv').config();
 
-const connecting = async () => DBConnection.connect()
+const uri = process.env.MONGODB_URI || '';
+
+const connecting = async () => DBConnection.connect(uri,'Julius', 'employee')
 connecting().then(() => {
     console.log("Connected to DB")
 }).catch((err) => {

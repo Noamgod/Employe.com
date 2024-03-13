@@ -1,7 +1,7 @@
 import axsio from 'axios';
 import API_URL from './config.ts';
 import Cookies from 'js-cookie';
-import {User} from "./type/user";
+import {User} from "../types/user";
 
 const api = axsio.create({
     baseURL: `${API_URL}/user`,
